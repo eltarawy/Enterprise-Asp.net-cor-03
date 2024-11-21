@@ -1,0 +1,14 @@
+﻿@using Assignment_Asp.net_cor_03.ViewModels;
+@model EmployeeViewModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Department Details</h1>
+<br />
+<br />
+<div>
+    <partial Name="_DeleteDetailsPartialView" />
+    <a asp-asp-controller="Employee" asp-action="Edit" class="btn btn-secondary">Edit</a> ||
+    <a asp-action="Index" class=" btn btn-primary">Back to list</a>
+</div>
